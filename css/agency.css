@@ -25,7 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  font-weight: 300;
 }
 
 section {
@@ -33,7 +33,7 @@ section {
 }
 
 section h2.section-heading {
-  font-size: 40px;
+  font-size: 35px;
   margin-top: 0;
   margin-bottom: 15px;
 }
@@ -54,6 +54,7 @@ section h3.section-subheading {
 
 .btn {
   font-weight: 700;
+  border-radius: 100px;
 }
 
 .btn-xl {
@@ -119,7 +120,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 90%;
-  font-weight: 400;
+  font-weight: 300;
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: white;
@@ -140,7 +141,7 @@ img::-moz-selection {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    height: 4em;
+    height: 3em;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
@@ -213,7 +214,7 @@ header.masthead .intro-text .intro-heading {
   }
   header.masthead .intro-text .intro-heading {
     font-size: 76px;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 0.64;
     letter-spacing: 0.9px;
     margin-bottom: 50px;
@@ -599,14 +600,11 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../img/map-image.png");
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: #ffffff;
 }
 
 section#contact .section-heading {
-  color: #fff;
+  color: #005599;
 }
 
 section#contact .form-group {
