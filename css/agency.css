@@ -55,6 +55,7 @@ section h3.section-subheading {
 .btn {
   font-weight: 700;
   border-radius: 100px;
+  padding: .375rem 4rem;
 }
 
 .btn-xl {
@@ -599,6 +600,11 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
+/*Background Clientes*/
+.bg-dark {
+    background-color: #e0e0e0;
+}
+
 section#contact {
   background-color: #ffffff;
 }
@@ -613,7 +619,12 @@ section#contact .form-group {
 
 section#contact .form-group input,
 section#contact .form-group textarea {
-  padding: 20px;
+  padding: 12px 12px 12px 24px;
+  border-radius: 8px;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  background-color: #f5f5f5;
+  border: solid 1px #cfcfcf;
 }
 
 section#contact .form-group input.form-control {
@@ -625,30 +636,30 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: #0099EE;
   box-shadow: none;
 }
 
 section#contact ::-webkit-input-placeholder {
-  font-weight: 700;
-  color: #ced4da;
+  font-weight: 300;
+  color: ##7d7d7d;
 }
 
 section#contact :-moz-placeholder {
-  font-weight: 700;
-  color: #ced4da;
+  font-weight: 300;
+  color: ##7d7d7d;
   /* Firefox 18- */
 }
 
 section#contact ::-moz-placeholder {
-  font-weight: 700;
-  color: #ced4da;
+  font-weight: 300;
+  color: ##7d7d7d;
   /* Firefox 19+ */
 }
 
 section#contact :-ms-input-placeholder {
-  font-weight: 700;
-  color: #ced4da;
+  font-weight: 300;
+  color: ##7d7d7d;
 }
 
 footer {
@@ -660,7 +671,6 @@ footer span.copyright {
   font-size: 90%;
   line-height: 40px;
   text-transform: none;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 footer ul.quicklinks {
@@ -668,7 +678,6 @@ footer ul.quicklinks {
   line-height: 40px;
   margin-bottom: 0;
   text-transform: none;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 ul.social-buttons {
