@@ -97,7 +97,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #0099EE;
+  background-color: #006eb9;
 }
 
 #mainNav .navbar-toggler {
@@ -107,7 +107,7 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #0099EE;
+  background-color: #0077CC;
 }
 
 #mainNav .navbar-brand {
