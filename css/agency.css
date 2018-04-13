@@ -607,6 +607,7 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
   background-color: #ffffff;
+  padding: 150px 0 80px;
 }
 
 section#contact .section-heading {
@@ -632,7 +633,7 @@ section#contact .form-group input.form-control {
 }
 
 section#contact .form-group textarea.form-control {
-  height: 248px;
+  height: 100px;
 }
 
 section#contact .form-control:focus {
