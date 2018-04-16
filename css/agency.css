@@ -624,7 +624,7 @@ section#contact {
   padding: 150px 0 80px;
 }
 
-section#contact .section-heading {
+.section-heading {
   color: #005599;
 }
 
@@ -725,4 +725,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: ghostwhite;
   color: #0099EE;
   border: 1px solid #0099EE;
+}
+
+.servicos-bg{
+    background-color: #E8F4FA;
 }
