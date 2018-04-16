@@ -699,6 +699,11 @@ ul.social-buttons {
   margin-bottom: 0;
 }
 
+ul.right-align {
+  text-align: right;
+}
+
+
 ul.social-buttons li a {
   font-size: 20px;
   line-height: 40px;
@@ -712,6 +717,8 @@ ul.social-buttons li a {
   border-radius: 100%;
   outline: none;
   background-color: white;
+  text-align: center;
+  border: 1px solid rgb(0,0,0,.8);
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
