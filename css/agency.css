@@ -723,4 +723,6 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: ghostwhite;
+  color: #0099EE;
+  border: 1px solid #0099EE;
 }

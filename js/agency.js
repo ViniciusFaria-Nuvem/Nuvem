@@ -30,14 +30,23 @@
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
+      $("#nuvemLogo").attr('src', 'img/logos/nuvem.svg');
     } else {
       $("#mainNav").removeClass("navbar-shrink");
+      $("#nuvemLogo").attr('src', 'img/logos/nuvem-branco.svg');
     }
   };
   // Collapse now if page is not at top
   navbarCollapse();
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
+  $(window).ready( function() {
+    if (window.matchMedia('(max-width: 991px)').matches){
+        $("#nuvemLogo").attr('src', 'img/logos/nuvem.svg');
+    }else{
+        $("#nuvemLogo").attr('src', 'img/logos/nuvem-branco.svg');
+    }
+  });
 
   // Hide navbar when modals trigger
   $('.portfolio-modal').on('show.bs.modal', function(e) {
