@@ -677,6 +677,23 @@ section#contact :-ms-input-placeholder {
   color: ##7d7d7d;
 }
 
+section#contact h5 {
+    color: rgba(0,0,0,.5);
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+section#contact .row .spaced {
+    margin-bottom: 32px;
+}
+
+i.circle {
+    border: 1px solid;
+    border-radius: 100px;
+    padding: 10px;
+    color: #005599;
+}
+
 footer {
   padding: 25px 0;
   text-align: center;
@@ -702,7 +719,6 @@ ul.social-buttons {
 ul.right-align {
   text-align: right;
 }
-
 
 ul.social-buttons li a {
   font-size: 20px;
