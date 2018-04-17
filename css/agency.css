@@ -273,6 +273,38 @@ section#about div .spaced {
   border: solid 2px #33ccff;
 }
 
+.servicos-bg{
+    background-color: #E8F4FA;
+}
+
+section#servicos h4 {
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #005599;
+}
+
+section#servicos p {
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+section#servicos .text-block {
+    margin-top: 20px;
+}
+
+svg {
+  margin-left: auto;
+}
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
@@ -767,6 +799,3 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   border: 1px solid #0099EE;
 }
 
-.servicos-bg{
-    background-color: #E8F4FA;
-}
