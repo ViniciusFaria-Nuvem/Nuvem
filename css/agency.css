@@ -249,6 +249,19 @@ header.masthead .intro-text .intro-heading {
   margin: 15px 0;
   text-transform: none;
 }
+
+section#about img {
+    max-height: 600px;
+    width: auto;
+    opacity: .8;
+}
+
+.carousel-inner {
+  border-radius: 32px;
+  background-color: #000000;
+  box-shadow: 0 2px 19px 0 rgba(0, 0, 0, 0.1);
+}
+
 section#about p {
     color: rgba(0,0,0,.8);
     line-height: 1.75;
