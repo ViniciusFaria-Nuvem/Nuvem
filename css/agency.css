@@ -307,8 +307,8 @@ svg {
 
 .trabalhe {
   background: #00b9ec;
-  background-image: url("/img/trabalhe-conosco/bg-nuvem.png"); /* fallback */
-  background-image: url("/img/trabalhe-conosco/bg-nuvem.png"), linear-gradient(to bottom, #00b9ec, #0083d4); /* W3C */
+  background-image: url("../img/trabalhe-conosco/bg-trabalhe-conosco.png"); /* fallback */
+  background-image: url("../img/trabalhe-conosco/bg-trabalhe-conosco.png"), linear-gradient(to bottom, #00b9ec, #0083d4); /* W3C */
   position: relative;
   width: 100%;
   height: 100%;
