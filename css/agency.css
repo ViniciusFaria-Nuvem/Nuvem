@@ -352,6 +352,44 @@ section#trabalhe a {
 
 }
 
+section#portifolio .nav-pills .nav-link {
+  border-radius: 20px;
+  border: solid 1px #0099ee;
+  margin: 49px 16px 0;
+}
+
+section#portifolio .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  border-radius: 20px;
+  background-color: #0099ee;
+}
+
+section#portifolio H4 {
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.97;
+  letter-spacing: 0.6px;
+  text-align: left;
+  color: #0077cc;
+  margin: 24px 0 32px;
+}
+
+section#portifolio div .spaced {
+    margin-top: 48px;
+}
+
+section#portifolio p {
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.8);
+
+}
+
+/*v TEMPLATE v*/
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
