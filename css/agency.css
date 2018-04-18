@@ -180,7 +180,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: /*url("../img/header-bg.jpg")*/url("../img/clouds-bg.png"), linear-gradient(to bottom, #005599, #006eb9 28%, #0098ef);
+  background-image: url("../img/clouds-bg.png"), linear-gradient(to bottom, #005599, #006eb9 28%, #0098ef);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -262,6 +262,13 @@ section#about img {
   box-shadow: 0 2px 19px 0 rgba(0, 0, 0, 0.1);
 }
 
+section#about {
+    background-image: url("../img/about/nuvens-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50px 150px;
+}
+
 section#about p {
     color: rgba(0,0,0,.8);
     line-height: 1.75;
@@ -287,6 +294,10 @@ section#about div .spaced {
 }
 
 .servicos-bg{
+    background-image: url("../img/servicos/nuvens-bg.png");
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: 50px 150px; 
     background-color: #E8F4FA;
 }
 
@@ -352,6 +363,13 @@ section#trabalhe a {
 
 }
 
+section#portifolio {
+    background-image: url("../img/portfolio/nuvens-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50px 150px;
+}
+
 section#portifolio .nav-pills .nav-link {
   border-radius: 20px;
   border: solid 1px #0099ee;
@@ -399,8 +417,11 @@ section#clientes img {
 }
 
 section#contact {
-  background-color: #ffffff;
-  padding: 150px 0 80px;
+    background-image: url("../img/contact/nuvens-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50px 150px;
+    padding: 150px 0 80px;
 }
 
 .section-heading {
