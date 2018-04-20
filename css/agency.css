@@ -446,6 +446,24 @@ section#social .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230077cc' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
+@media (max-width: 991px) 
+{
+    section#social {
+        background-image: none;
+        padding: 64px 0 64px;
+    }
+    section#social h5.coment {
+        padding: 32px 16px 32px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.44;
+        letter-spacing: 0.3px;
+        color: rgba(0, 0, 0, 0.7);
+        font-size: 16px;
+    }
+}
+
 .perfil-id {
   font-weight: 400;
   font-style: normal;
