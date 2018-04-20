@@ -175,6 +175,9 @@ img::-moz-selection {
   #mainNav .navbar-nav .nav-item .nav-link {
       color: rgba(0,0,0,.8);
   }
+    #sobre-heading {
+        font-size: 20px;
+    }
 }
 
 header.masthead {
