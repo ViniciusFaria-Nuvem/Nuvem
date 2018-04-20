@@ -407,6 +407,54 @@ section#portifolio p {
 
 }
 
+section#social {
+    background-image: url("../img/social/Nuvem.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center 160px;
+    padding: 128px 0 128px;
+}
+
+section#social .carousel-inner {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+section#social img {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 100%;
+    box-shadow: 10px 0 30px 0 rgba(81, 116, 141, 0.4);
+}
+
+section#social h5.coment {
+    padding: 32px 250px 32px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: 0.3px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+section#social .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230077cc' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+section#social .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230077cc' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.perfil-id {
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.05;
+  letter-spacing: 0.4px;
+  color: #0077cc;
+}
+
 /*Background Clientes*/
 .bg-grey {
     background-color: #e0e0e0;
